@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bateria</title>
+
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="src/js/main.js" defer></script>
+</head>
+
+<body>
+    <main class="principal">
+        <section class="bateria">
+            <div>
+                <div class="container-prato-maior">
+                    <button class="botao botao-prato-maior" id="prato-maior">
+                        <div class="tampa"></div>
+                        <div class="cano"></div>
+                    </button>
+                </div>
+                <div class="container-surdo">
+                    <div class="surdo">
+                        <button class="botao botao-surdo" id="surdo"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bumbo-tons">
+                <div class="container-bumbo">
+                    <div class="container-botao-bumbo">
+                        <button class="botao botao-bumbo" id="bumbo"></button>
+                    </div>
+                </div>
+                <div class="tons">
+                    <div class="container-surdo container-tom1">
+                        <div class="surdo tom1">
+                            <button class="botao botao-surdo botao-tom1" id="tom1"></button>
+                        </div>
+                    </div>
+                    <div class="container-surdo container-tom2">
+                        <div class="surdo tom2">
+                            <button class="botao botao-surdo botao-tom2" id="tom2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caixa-prato-menor">
+                <div class="container-caixa">
+                    <div class="caixa">
+                        <button class="botao botao-caixa" id="caixa"></button>
+                    </div>
+                </div>
+                <div class="container-prato-maior container-prato-menor">
+                    <button class="botao botao-prato-maior botao-prato-menor" id="prato-menor">
+                        <div class="tampa"></div>
+                        <div class="cano cano-prato-menor"></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="audios">
+            <audio src="src/audios/prato-maior.wav" id="audio-prato-maior"></audio>
+            <audio src="src/audios/surdo.wav" id="audio-surdo"></audio>
+            <audio src="src/audios/tom1.wav" id="audio-tom1"></audio>
+            <audio src="src/audios/tom2.wav" id="audio-tom2"></audio>
+            <audio src="src/audios/bombo.wav" id="audio-bumbo"></audio>
+            <audio src="src/audios/prato-menor.wav" id="audio-prato-menor"></audio>
+            <audio src="src/audios/caixa.wav" id="audio-caixa"></audio>
+        </section>
+    </main>
+</body>
+
+</html>

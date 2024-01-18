@@ -1,0 +1,18 @@
+@import url('container-prato-maior.css');
+@import url('container-surdo.css');
+@import url('container-bumbo.css');
+@import url('container-tom1.css');
+@import url('container-tom2.css');
+@import url('container-caixa.css');
+@import url('container-prato-menor.css');
+@import url('bateria.css');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imgs/bg-musica.avif');
+    background-size: cover;
+}

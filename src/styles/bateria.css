@@ -1,0 +1,22 @@
+.bateria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.bumbo-tons {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tons {
+    display: flex;
+    gap: 10px;
+}
+
+.caixa-prato-menor {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 100px;
+}

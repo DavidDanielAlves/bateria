@@ -1,0 +1,12 @@
+.botao-caixa {
+    width: 200px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.caixa {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100%;
+}
